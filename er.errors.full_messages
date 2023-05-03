@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/destiny5914/projects/chat-app/spec/models/user_spec.rb:62 :
+
+    [1;34m57[0m:       [32mend[0m
+    [1;34m58[0m: 
+    [1;34m59[0m:       it [31m[1;31m'[0m[31memailは@を含まないと登録できない[1;31m'[0m[31m[0m [32mdo[0m
+    [1;34m60[0m:         @user.email = [31m[1;31m'[0m[31m123456[1;31m'[0m[31m[0m
+    [1;34m61[0m:         @user.valid?
+ => [1;34m62[0m:         binding.pry
+    [1;34m63[0m:         expect(@user.errors.full_messages).to include([31m[1;31m"[0m[31mPassword confirmation doesn't match Password[1;31m"[0m[31m[0m)
+    [1;34m64[0m:       [32mend[0m
+    [1;34m65[0m:     [32mend[0m
+    [1;34m66[0m:   [32mend[0m
+    [1;34m67[0m: [32mend[0m
+
